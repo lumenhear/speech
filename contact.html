@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Book an Appointment | Deepak Audiologist & Speech Therapist, Chandigarh</title>
+<meta name="description" content="Book a hearing test, hearing aid consultation, or speech & language therapy assessment with Deepak in Chandigarh. Call, WhatsApp, or send a request — serving Mohali, Panchkula, Zirakpur and nearby areas.">
+<link rel="canonical" href="https://example.com/contact.html">
+<link rel="stylesheet" href="css/main.css">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ContactPage",
+  "url": "https://example.com/contact.html",
+  "about": {
+    "@type": "MedicalClinic",
+    "name": "Deepak Audiologist & Speech Therapist",
+    "telephone": "+91-9350158754",
+    "email": "drajput.pro@gmail.com"
+  }
+}
+</script>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="index.html" class="logo">
+      <span class="name-line">DEEPAK</span>
+      <span class="role-line">AUDIOLOGIST · SPEECH-LANGUAGE PATHOLOGIST</span>
+    </a>
+    <nav class="main-nav" aria-label="Primary">
+      <a href="index.html#hearing">Hearing</a>
+      <a href="index.html#speech">Speech &amp; Language</a>
+      <a href="index.html#about">About</a>
+      <a href="index.html#faq">FAQs</a>
+      <a href="contact.html" class="nav-cta">Book Appointment</a>
+    </nav>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+  <section class="hero" style="padding-bottom: 3rem;">
+    <div class="container">
+      <p class="eyebrow">BOOK AN APPOINTMENT</p>
+      <h1 class="hero-headline" style="max-width: 700px;">Let's get you<br>seen <span class="accent">this week.</span></h1>
+      <p class="hero-sub" style="max-width: 560px;">Call, message on WhatsApp, or send a request below. We'll confirm a time that works for a hearing test, hearing aid consultation, or speech &amp; language assessment.</p>
+    </div>
+  </section>
+
+  <section class="section" style="padding-top:0;">
+    <div class="container">
+      <div class="about-grid" data-reveal style="align-items: start;">
+        <div>
+          <div class="track-card" style="margin-bottom: 1.2rem;">
+            <p class="eyebrow" style="margin-bottom:0.8rem;">CALL OR MESSAGE</p>
+            <ul class="credentials-list">
+              <li><span class="tick">✓</span> <a href="tel:+919350158754" style="font-weight:600;">+91 93501 58754</a></li>
+              <li><span class="tick">✓</span> <a href="mailto:drajput.pro@gmail.com" style="font-weight:600;">drajput.pro@gmail.com</a></li>
+              <li><span class="tick">✓</span> Serving Chandigarh, Mohali, Panchkula, Zirakpur, Kharar, New Chandigarh, Derabassi, Ambala, Kurali &amp; Baddi</li>
+            </ul>
+            <div class="hero-actions" style="margin-top:1.2rem; margin-bottom:0;">
+              <a href="https://wa.me/919350158754" class="btn btn-whatsapp" target="_blank" rel="noopener">WhatsApp Us</a>
+              <a href="tel:+919350158754" class="btn btn-outline">Call Now</a>
+            </div>
+          </div>
+          <p class="section-desc" style="font-size:0.88rem;">Prefer to fill a form? Use the request form and we'll call you back to confirm a time. This form does not book the slot automatically.</p>
+        </div>
+
+        <div class="track-card">
+          <p class="eyebrow" style="margin-bottom:1rem;">REQUEST A CALLBACK</p>
+          <form id="contact-form" onsubmit="event.preventDefault(); document.getElementById('form-success').style.display='block'; this.reset();">
+            <div style="display:flex; flex-direction:column; gap:1rem;">
+              <div>
+                <label for="name" style="font-size:0.85rem; font-weight:600; display:block; margin-bottom:0.4rem;">Name</label>
+                <input id="name" name="name" type="text" required style="width:100%; padding:0.7rem; border:1px solid var(--grid-line); border-radius:2px; font-family:var(--font-body);">
+              </div>
+              <div>
+                <label for="phone" style="font-size:0.85rem; font-weight:600; display:block; margin-bottom:0.4rem;">Phone</label>
+                <input id="phone" name="phone" type="tel" required style="width:100%; padding:0.7rem; border:1px solid var(--grid-line); border-radius:2px; font-family:var(--font-body);">
+              </div>
+              <div>
+                <label for="service" style="font-size:0.85rem; font-weight:600; display:block; margin-bottom:0.4rem;">What do you need?</label>
+                <select id="service" name="service" style="width:100%; padding:0.7rem; border:1px solid var(--grid-line); border-radius:2px; font-family:var(--font-body);">
+                  <option>Hearing test</option>
+                  <option>Hearing aid consultation</option>
+                  <option>Speech &amp; language assessment (child)</option>
+                  <option>Speech &amp; language therapy (adult)</option>
+                  <option>Other</option>
+                </select>
+              </div>
+              <div>
+                <label for="message" style="font-size:0.85rem; font-weight:600; display:block; margin-bottom:0.4rem;">Anything we should know?</label>
+                <textarea id="message" name="message" rows="3" style="width:100%; padding:0.7rem; border:1px solid var(--grid-line); border-radius:2px; font-family:var(--font-body); resize:vertical;"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary" style="justify-content:center;">Send Request</button>
+              <p id="form-success" style="display:none; font-size:0.88rem; color:var(--sage); font-weight:600;">Thanks — we'll call you back shortly to confirm a time.</p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-bottom" style="border-top:none; padding-top:0;">
+      <span>© 2026 Deepak Audiologist &amp; Speech Therapist, Chandigarh.</span>
+      <span>Chandigarh · Mohali · Panchkula · Zirakpur</span>
+    </div>
+  </div>
+</footer>
+
+<a href="https://wa.me/919350158754" class="whatsapp-fab" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+  <svg width="28" height="28" viewBox="0 0 24 24" fill="white"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91S17.5 2 12.04 2zm0 1.67c4.55 0 8.24 3.69 8.24 8.24 0 4.55-3.69 8.24-8.24 8.24-1.55 0-3.04-.43-4.34-1.23l-.31-.19-3.12.82.83-3.04-.2-.32a8.18 8.18 0 01-1.27-4.4c0-4.55 3.7-8.24 8.24-8.24h-.03zm-.04 14.9c3.7 0 6.7-3 6.7-6.7s-3-6.7-6.7-6.7-6.7 3-6.7 6.7c0 1.43.46 2.76 1.23 3.86l-.7 2.55 2.6-.68a6.65 6.65 0 003.57 1.07z"/></svg>
+</a>
+
+<script src="js/main.js"></script>
+</body>
+          </html>
+                                                
